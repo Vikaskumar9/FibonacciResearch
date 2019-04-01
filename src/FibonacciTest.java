@@ -2,9 +2,7 @@ import java.math.BigInteger;
 
 public class FibonacciTest extends junit.framework.TestCase {
 
-
         Fibonacci fibonacci_new = new Fibonacci();
-
 
         /** Successful calls to fibonacci */
         public void testGood() {
