@@ -27,7 +27,7 @@ public class FibonacciTest extends junit.framework.TestCase {
 
         }
         /** Call to fibonacci that is negative , we are returning 0 for negative input. */
-        public void testNegativeLow() {
+        public void testNegative() {
             assertEquals(BigInteger.valueOf(0), fibonacci_new.fibonacci(-10));
         }
     }
