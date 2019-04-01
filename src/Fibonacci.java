@@ -58,7 +58,7 @@ public class Fibonacci {
 
         public static void main (String[]args){
             Fibonacci fibonacci_new = new Fibonacci();
-            for (int i = 0; i <= 1000; i++) {
+            for (int i = 0; i <= 100; i++) {
                 long start = System.nanoTime();
                 BigInteger temp = fibonacci_new.fibonacci(i);
                 long stop = System.nanoTime();
